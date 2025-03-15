@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore Visual Studio-specific files
+.vs/
+*.vsidx
+*.slnx.sqlite
+VSWorkspaceState.json
+/.vs/slnx.sqlite
