@@ -1,6 +1,7 @@
+import { useState } from "react";
 import HouseRow from "./houseRow";
 
-const houses = [
+const housesArray = [
 	{
 		id: 1,
 		address: "12 Valley of kings, Geneva",
@@ -16,6 +17,7 @@ const houses = [
 ];
 
 const HouseList = () => {
+	const [houses, setHouses] = useState(housesArray);
 	return (
 		<>
 			<div className="row mb-2">
